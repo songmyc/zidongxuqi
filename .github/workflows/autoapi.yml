@@ -8,7 +8,7 @@ on:
     branches: 
       - master
   schedule:
-    - cron: '6,25,38 1,2,5,9,13,18,19,21,23 * * *'
+    - cron: '6,38 1,2,5,7,9,12,13,18,19,21,23 * * *'
   watch:
     types: [started]
    
